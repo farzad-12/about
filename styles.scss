@@ -1,0 +1,56 @@
+$color:white;
+$textalign:center;
+$bold:bold;
+h1 {color:$color;
+    text-align:$textalign;
+    font-weight:$bold;
+
+}
+.info { color: $color;
+    text-align: $textalign;
+    font-size: 18px;
+    
+        a:link {
+                color: green;
+                    background-color: transparent;
+                    text-decoration: none;
+        }       
+
+        a:visited {
+                color: green;
+                background-color: transparent;
+                text-decoration: none;
+        }
+
+    a:hover {
+                color: red;
+                background-color: transparent;
+                text-decoration: underline;
+    }
+
+    a:active {
+                color: yellow;
+                background-color: transparent;
+                text-decoration: underline;
+    }
+    ul{
+        list-style-position: inside;
+        display: inline-block;   /* makes the list act like a box */
+        text-align: left;  
+      /* keeps the bullets + text aligned properly */
+    }
+
+    
+}
+img {
+  display: block;
+  margin: auto;
+  width: auto;
+}
+body {
+        text-align: center;
+        background-image: url("code.gif");
+        background-repeat: no-repeat; /* Prevents image from repeating */
+        background-size: cover; /* Covers the entire background */
+        background-attachment: fixed; /* Keeps image fixed during scroll */
+}
